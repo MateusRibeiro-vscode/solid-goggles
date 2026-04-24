@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.iiiii {
+    background-color: #d2d1dbd8;
+    width: 100%;
+    height: 100vh;
+    display : flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.ooooo{
+    background-color: white;
+    width: 350px;          
+    padding: 30px;
+    border-radius: 25px;    
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
