@@ -11,11 +11,11 @@ if ($nome==""||$email==""||$senha=="") {
     echo"insira algo va";
     }else{
         require "Usuario.class.php";
-        $usuario = new Usuario();
-        $con = $usuario->conecta();
+        $usuario2 = new Usuario2();
+        $con = $usuario2->conecta();
 
         if($con){
-            $user = $usuario->inserirUsuario($nome,$email,$senha);
+            $user = $usuario2->inserirUsuario2($nome,$email,$senha);
             if($con){
                 echo "Usuario inserido!";
 
