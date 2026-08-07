@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.carros{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(135, 137, 139);
+}
+
+body{
+    background-color: rgb(151, 153, 156);
+    padding-bottom: 500px;
+}
+.column{
+    display: flex;
+    background-color: rgb(151, 153, 156);
+    flex-direction: column;
+    gap: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.box{
+    height: 40px;
+    width: 33vw;
+    margin-right: 10px;
+    border: 1px solid black;
+    display: flex;
+
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
